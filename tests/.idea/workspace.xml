@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dc9bc6-629b-4352-8ce5-e31dbe1a6a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repeat2/src/test/java/qa20/OpenGoogleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWebTest/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebTest/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWebTest/build/classes/java/test/com/telran/qa20/OpenGoogleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebTest/build/classes/java/test/com/telran/qa20/OpenGoogleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,21 +56,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeleniumWebTest/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repeat2/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java">
+        <entry file="file://$PROJECT_DIR$/Repeat2/src/test/java/qa20/OpenGoogleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +117,7 @@
         <option value="$PROJECT_DIR$/Repeat2/build.gradle" />
         <option value="$PROJECT_DIR$/SeleniumWebTest/build.gradle" />
         <option value="$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java" />
+        <option value="$PROJECT_DIR$/Repeat2/src/test/java/qa20/OpenGoogleTest.java" />
       </list>
     </option>
   </component>
@@ -108,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,29 +141,12 @@
               <item name="tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SeleniumWebTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SeleniumWebTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="SeleniumWebTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +155,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4091954" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="qa20" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,13 +174,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.OpenGoogleTest.testGoogle">
     <configuration name="OpenGoogleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/SeleniumWebTest" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.telran.qa20.OpenGoogleTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.telran.qa20.OpenGoogleTest&quot; --scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenGoogleTest.testGoogle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Repeat2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;qa20.OpenGoogleTest.testGoogle&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,6 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OpenGoogleTest.testGoogle" />
+        <item itemvalue="Gradle.OpenGoogleTest.testGoogle" />
         <item itemvalue="Gradle.OpenGoogleTest" />
       </list>
     </recent_temporary>
@@ -199,30 +234,52 @@
       <option name="presentableId" value="Default" />
       <updated>1561104724920</updated>
     </task>
+    <task id="LOCAL-00001" summary="21/06/2019">
+      <created>1561106906209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561106906209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenGoogleTest - 2019.06.21 at 11h 34m 40s.xml">
+    <history-entry file="OpenGoogleTest - 2019.06.25 at 18h 24m 15s.xml">
       <configuration name="OpenGoogleTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="OpenGoogleTest - 2019.06.21 at 11h 35m 37s.xml">
+    <history-entry file="OpenGoogleTest - 2019.06.25 at 18h 25m 25s.xml">
       <configuration name="OpenGoogleTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="OpenGoogleTest - 2019.06.21 at 11h 36m 43s.xml">
+    <history-entry file="OpenGoogleTest - 2019.06.25 at 18h 28m 49s.xml">
       <configuration name="OpenGoogleTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="OpenGoogleTest - 2019.06.21 at 11h 41m 48s.xml">
-      <configuration name="OpenGoogleTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 34m 40s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="OpenGoogleTest - 2019.06.21 at 11h 44m 40s.xml">
-      <configuration name="OpenGoogleTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 35m 48s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 37m 56s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 39m 00s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 40m 59s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 42m 09s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenGoogleTest_testGoogle - 2019.06.25 at 18h 43m 07s.xml">
+      <configuration name="OpenGoogleTest.testGoogle" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25379938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19908814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -231,8 +288,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25204584" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36497545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23240589" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,13 +302,38 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32978722" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.32978722" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="21/06/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="21/06/2019" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumWebTest/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Repeat2/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -259,21 +341,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumWebTest/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Repeat2/src/test/java/qa20/OpenGoogleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumWebTest/src/test/java/com/telran/qa20/OpenGoogleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -287,7 +360,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -295,10 +368,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -309,7 +383,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4091954" />
               </list>
             </option>
           </splitter-proportions>
@@ -317,10 +391,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4091954" />
               </list>
             </option>
           </splitter-proportions>

@@ -8,6 +8,8 @@
       <module name="first-test_test" target="1.8" />
       <module name="trello-web_main" target="1.8" />
       <module name="trello-web_test" target="1.8" />
+      <module name="wikipedia-web-tests_main" target="1.8" />
+      <module name="wikipedia-web-tests_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web.iml" group="trello-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_main.iml" group="trello-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_test.iml" group="trello-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia-web-tests.iml" group="wikipedia-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia-web-tests_main.iml" group="wikipedia-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia-web-tests_test.iml" group="wikipedia-web-tests" />
     </modules>
   </component>
 </project>

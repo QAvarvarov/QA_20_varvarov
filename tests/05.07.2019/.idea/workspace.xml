@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a6b025-66b2-4dce-9cef-29bc90350ddd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../QA20Sel/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../QA20Sel/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../QA20Sel/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../QA20Sel/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../QA20Sel/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../QA20Sel/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../QA20Sel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../QA20Sel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../QA20Sel/trello-web/out/test/classes/TrelloLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../QA20Sel/trello-web/out/test/classes/TrelloLoginTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/packageTest/BoardCreationClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/packageTest/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BoardCreationClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrelloLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/packageTest/TrelloLoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,6 +32,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -45,41 +50,40 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BoardCreationClass.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/packageTest/BoardCreationClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="221">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/packageTest/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="-906">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TrelloLoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/packageTest/TrelloLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -99,13 +103,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/JAVA_Package/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JAVA_Package/BoardCreationTests.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/TrelloLoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/BoardCreationClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/packageTest/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/packageTest/BoardCreationClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/packageTest/TrelloLoginTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="353" />
     <option name="y" value="-8" />
     <option name="width" value="694" />
@@ -144,21 +154,34 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="05.07.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05.07.2019" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="packageTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../QA20Sel/trello-web" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.4091954" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,6 +194,77 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Gradle.BoardCreationClass.testBoardCreationFromHeader">
+    <configuration name="BoardCreationClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BoardCreationClass&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BoardCreationClass.testBoardCreationFromHeader" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;packageTest.BoardCreationClass.testBoardCreationFromHeader&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TrelloLoginTest.loginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;packageTest.TrelloLoginTest.loginTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BoardCreationClass.testBoardCreationFromHeader" />
+        <item itemvalue="Gradle.TrelloLoginTest.loginTest" />
+        <item itemvalue="Gradle.BoardCreationClass.testBoardCreationFromHeader" />
+        <item itemvalue="Gradle.BoardCreationClass" />
+        <item itemvalue="Gradle.TrelloLoginTest.loginTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,69 +279,111 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 18m 14s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 19m 06s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 19m 42s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 20m 05s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 26m 57s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 28m 11s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TrelloLoginTest_loginTest - 2019.07.09 at 20h 30m 10s.xml">
+      <configuration name="TrelloLoginTest.loginTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 33m 07s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 45m 21s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardCreationClass_testBoardCreationFromHeader - 2019.07.09 at 20h 51m 09s.xml">
+      <configuration name="BoardCreationClass.testBoardCreationFromHeader" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2575988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.18330605" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" weight="0.32978722" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.18330605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32978722" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/BoardCreationClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA_Package/AddToFavoritsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA_Package/TrelloLoginTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA_Package/TestBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/JAVA_Package/BoardCreationTests.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/packageTest/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TrelloLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="-906">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/packageTest/BoardCreationClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/packageTest/TrelloLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -303,7 +439,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>05.07.2019</last-edited>
+          <last-edited>05.07.2019_test|05.07.2019</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

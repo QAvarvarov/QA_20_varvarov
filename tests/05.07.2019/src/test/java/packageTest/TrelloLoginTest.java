@@ -1,5 +1,5 @@
-import org.junit.Test;
-import org.openqa.selenium.By;
+package packageTest;
+
 import org.testng.annotations.Test;
 
 
@@ -10,7 +10,7 @@ public class TrelloLoginTest extends TestBase
     public void loginTest() throws InterruptedException{
 
         clickLoginButton();
-        fillLoginForm("la@gmail.com", "123456.com");
+        fillLoginForm("972varvarov@gmail.com", "azu185o2");
         pause(3000);
         confirmLogin();
         pause(10000);

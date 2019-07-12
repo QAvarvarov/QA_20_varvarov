@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65382ef-7dde-470a-ac15-386f1e10dbfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/BoardCreationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/BoardCreationClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/BoardCreationClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/TrelloLoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/packageTest/BoardCreationClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/packageTest/BoardCreationClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/packageTest/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/packageTest/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/packageTest/TrelloLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/build/classes/java/test/packageTest/TrelloLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/CodeFromWebinar/BoardCreationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/CodeFromWebinar/BoardDeletionTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/CodeFromWebinar/TeamCreationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/CodeFromWebinar/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/TrelloLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/05.07.2019/src/test/java/packageTest/TrelloLoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -88,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="407" />
     <option name="y" value="145" />
     <option name="width" value="694" />
@@ -134,6 +146,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tests/05.07.2019" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -198,7 +211,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="407" y="145" width="694" height="735" extended-state="1" />
+    <frame x="407" y="145" width="694" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />

@@ -3,17 +3,16 @@ package packageTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager
-{
+public class ApplicationManager {
 
 
+    Board board = new Board();
     WebDriver wd;
 
-    protected void init() throws InterruptedException
+    public void init() throws InterruptedException
     {
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -47,7 +46,7 @@ public class ApplicationManager
         type(By.name("password"), password);
     }
 
-    private void type(By locator, String text)
+    public void type(By locator, String text)
     {
         click(locator);
         wd.findElement(locator).clear();
@@ -56,23 +55,7 @@ public class ApplicationManager
 
     void clickLoginButton()
     {
-        click(By.cssSelector("[href='login']"));
-    }
-
-    void confirmBoardCreation()
-    {
-        click(By.cssSelector("[data-test-id=header-create-board-submit-button]"));
-    }
-
-    void typeBoardName(String boardName)
-    {
-        type(By.cssSelector("[data-test-id=header-create-board-title-input]"), boardName);
-
-    }
-
-    void selectCreateBoardFromDropDown()
-    {
-        click(By.cssSelector("[data-test-id=header-create-board-button]"));
+        click(By.cssSelector("[href='/login']"));
     }
 
     void clickOnPlusButtonOnHeader()
@@ -94,7 +77,8 @@ public class ApplicationManager
         try {
             wd.findElement(locator);
             return true;
-        } catch (NoSuchElementException e) {
+        }
+        catch (NoSuchElementException e) {
             return false;
         }
 

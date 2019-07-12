@@ -11,38 +11,38 @@ public class BoardCreationClass extends TestBase
     public void ensurePreconditions() throws InterruptedException{
       if(!isUserLoggedIn())
       {
-          login("972varvarov@gmail.com", "azu185o2");
+          app.login("972varvarov@gmail.com", "azu185o2");
       }
     }
 
     private boolean isUserLoggedIn()
     {
-        return isElementPresent2(By.cssSelector("[href='/]"));
+        return app.isElementPresent2(By.cssSelector("[href='/]"));
     }
 
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException
     {
         int before = getBoardsCount();
-        clickOnPlusButtonOnHeader();
-        selectCreateBoardFromDropDown();
-        pause(10000);
-        typeBoardName("qa20"+System.currentTimeMillis());
-        confirmBoardCreation();
-        pause(10000);
+        app.clickOnPlusButtonOnHeader();
+        app.selectCreateBoardFromDropDown();
+        app.pause(10000);
+        app.typeBoardName("qa20"+System.currentTimeMillis());
+        app.confirmBoardCreation();
+        app.pause(10000);
         returnToHomePage();
         int after = getBoardsCount();
         Assert.assertEquals(after, before +1);
     }
 
     private void returnToHomePage() {
-        click(By.xpath("//span[@name='house']"));
+        app.click(By.xpath("//span[@name='house']"));
 
     }
 
     private int getBoardsCount()
     {
-         return wd.findElements(By.xpath("//span[@class='icon-lg icon-member']/../../..//li")).size();
+         return app.wd.findElements(By.xpath("//span[@class='icon-lg icon-member']/../../..//li")).size();
     }
 
 

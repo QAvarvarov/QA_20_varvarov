@@ -40,15 +40,5 @@ public class BoardCreationClass extends TestBase
 
     }
 
-    private int getBoardsCount()
-    {
-         return app.wd.findElements(By.xpath("//span[@class='icon-lg icon-member']/../../..//li")).size();
-    }
-
-
-
-
-
-
 
 }

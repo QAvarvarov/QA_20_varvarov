@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repeat-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/repeat-tests.iml" group="repeat-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repeat-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/repeat-tests_main.iml" group="repeat-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repeat-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/repeat-tests_test.iml" group="repeat-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-tests_main.iml" group="selenium-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-tests_test.iml" group="selenium-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_main.iml" group="trello-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_test.iml" group="trello-web" />
+    </modules>
+  </component>
+</project>
